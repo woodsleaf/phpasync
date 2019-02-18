@@ -2,9 +2,12 @@
     "require": {
         "react/http": "^0.8.4"
     },
+    "config": {
+        "optimize-autoloader": true
+    },
     "autoload": {
         "psr-4": {
-            "app\\": "public_html/"
+            "App\\": "public_html"
         }
     }
 }
